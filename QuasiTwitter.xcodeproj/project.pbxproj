@@ -3,150 +3,203 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80689C3C2741694900A58C2A /* QuasiTwitterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80689C3B2741694900A58C2A /* QuasiTwitterApp.swift */; };
-		80689C3E2741694900A58C2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80689C3D2741694900A58C2A /* ContentView.swift */; };
-		80689C402741694A00A58C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80689C3F2741694A00A58C2A /* Assets.xcassets */; };
-		80689C432741694A00A58C2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80689C422741694A00A58C2A /* Preview Assets.xcassets */; };
+		13A50D194AAA356BE6B638C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8606F2F40831EC98ED8B31E9 /* Preview Assets.xcassets */; };
+		368CC55FEFC6D27E0A6CD63F /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = EFC3ED547D5B89776C08D4BD /* Lottie */; };
+		7097838C4885D32A48E2CFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4355B670128D4FF457E3EE /* Assets.xcassets */; };
+		8126E1A9EAF85EEF6C51C97B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D468E1B5072C492AF07D3C6C /* ContentView.swift */; };
+		FF02F9C2194B7A5B1514926E /* QuasiTwitterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50E4BA282ABBFC068CB648 /* QuasiTwitterApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		80689C382741694900A58C2A /* QuasiTwitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuasiTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		80689C3B2741694900A58C2A /* QuasiTwitterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuasiTwitterApp.swift; sourceTree = "<group>"; };
-		80689C3D2741694900A58C2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		80689C3F2741694A00A58C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		80689C422741694A00A58C2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		80689C442741694A00A58C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4355B670128D4FF457E3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A79438CEACC0BA49390C803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8606F2F40831EC98ED8B31E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D468E1B5072C492AF07D3C6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED50E4BA282ABBFC068CB648 /* QuasiTwitterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuasiTwitterApp.swift; sourceTree = "<group>"; };
+		F213DCC64BA86287EB8935C0 /* QuasiTwitter.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = QuasiTwitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		80689C352741694900A58C2A /* Frameworks */ = {
+		4960AED1615DBF879AA922C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368CC55FEFC6D27E0A6CD63F /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80689C2F2741694900A58C2A = {
+		86FCC5F295D73E9BCA29B70B = {
 			isa = PBXGroup;
 			children = (
-				80689C3A2741694900A58C2A /* QuasiTwitter */,
-				80689C392741694900A58C2A /* Products */,
+				F3C7DF843DAC40252D23E13C /* QuasiTwitter */,
+				D324D46B9B77FDE6412A52C0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		80689C392741694900A58C2A /* Products */ = {
+		A176DA15F8814466731401A4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				80689C382741694900A58C2A /* QuasiTwitter.app */,
+				8606F2F40831EC98ED8B31E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D324D46B9B77FDE6412A52C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F213DCC64BA86287EB8935C0 /* QuasiTwitter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80689C3A2741694900A58C2A /* QuasiTwitter */ = {
+		F3C7DF843DAC40252D23E13C /* QuasiTwitter */ = {
 			isa = PBXGroup;
 			children = (
-				80689C3B2741694900A58C2A /* QuasiTwitterApp.swift */,
-				80689C3D2741694900A58C2A /* ContentView.swift */,
-				80689C3F2741694A00A58C2A /* Assets.xcassets */,
-				80689C442741694A00A58C2A /* Info.plist */,
-				80689C412741694A00A58C2A /* Preview Content */,
+				A176DA15F8814466731401A4 /* Preview Content */,
+				2E4355B670128D4FF457E3EE /* Assets.xcassets */,
+				D468E1B5072C492AF07D3C6C /* ContentView.swift */,
+				5A79438CEACC0BA49390C803 /* Info.plist */,
+				ED50E4BA282ABBFC068CB648 /* QuasiTwitterApp.swift */,
 			);
 			path = QuasiTwitter;
-			sourceTree = "<group>";
-		};
-		80689C412741694A00A58C2A /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				80689C422741694A00A58C2A /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80689C372741694900A58C2A /* QuasiTwitter */ = {
+		D00468781922FBA8A2B7355E /* QuasiTwitter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80689C472741694A00A58C2A /* Build configuration list for PBXNativeTarget "QuasiTwitter" */;
+			buildConfigurationList = DBD75DCBF81AE64C9FE3A13C /* Build configuration list for PBXNativeTarget "QuasiTwitter" */;
 			buildPhases = (
-				80689C342741694900A58C2A /* Sources */,
-				80689C352741694900A58C2A /* Frameworks */,
-				80689C362741694900A58C2A /* Resources */,
+				7C67E953F71F4B2B0F0BDB6E /* Swiftlint */,
+				A09596AA8EEE955E6A13864E /* Sources */,
+				D838DFF38699492648C71208 /* Resources */,
+				4960AED1615DBF879AA922C9 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = QuasiTwitter;
+			packageProductDependencies = (
+				EFC3ED547D5B89776C08D4BD /* Lottie */,
+			);
 			productName = QuasiTwitter;
-			productReference = 80689C382741694900A58C2A /* QuasiTwitter.app */;
+			productReference = F213DCC64BA86287EB8935C0 /* QuasiTwitter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		80689C302741694900A58C2A /* Project object */ = {
+		2711818FD5A79BBAFC4F2998 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					80689C372741694900A58C2A = {
-						CreatedOnToolsVersion = 12.5.1;
+					D00468781922FBA8A2B7355E = {
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 80689C332741694900A58C2A /* Build configuration list for PBXProject "QuasiTwitter" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 71F4A63610CB78337FDE1495 /* Build configuration list for PBXProject "QuasiTwitter" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = 80689C2F2741694900A58C2A;
-			productRefGroup = 80689C392741694900A58C2A /* Products */;
+			mainGroup = 86FCC5F295D73E9BCA29B70B;
+			packageReferences = (
+				ADF6F82430B9A5377BCC531C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80689C372741694900A58C2A /* QuasiTwitter */,
+				D00468781922FBA8A2B7355E /* QuasiTwitter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		80689C362741694900A58C2A /* Resources */ = {
+		D838DFF38699492648C71208 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80689C432741694A00A58C2A /* Preview Assets.xcassets in Resources */,
-				80689C402741694A00A58C2A /* Assets.xcassets in Resources */,
+				7097838C4885D32A48E2CFC1 /* Assets.xcassets in Resources */,
+				13A50D194AAA356BE6B638C1 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7C67E953F71F4B2B0F0BDB6E /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if test -d \"/opt/homebrew/bin/\"; then\n  PATH=\"/opt/homebrew/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands\"\nfi\n\nexport PATH\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		80689C342741694900A58C2A /* Sources */ = {
+		A09596AA8EEE955E6A13864E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80689C3E2741694900A58C2A /* ContentView.swift in Sources */,
-				80689C3C2741694900A58C2A /* QuasiTwitterApp.swift in Sources */,
+				8126E1A9EAF85EEF6C51C97B /* ContentView.swift in Sources */,
+				FF02F9C2194B7A5B1514926E /* QuasiTwitterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		80689C452741694A00A58C2A /* Debug */ = {
+		9F74CFDBA7A588D0DA6B54DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = QuasiTwitter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.just_terror.QuasiTwitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D87D12610826C48FC00A336A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,8 +241,8 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
 					"$(inherited)",
+					"DEBUG=1",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -197,17 +250,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		80689C462741694A00A58C2A /* Release */ = {
+		E76D171E962C9B05299E8640 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,82 +308,83 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		80689C482741694A00A58C2A /* Debug */ = {
+		E7AA9BEFB134E8BA0E862F6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"QuasiTwitter/Preview Content\"";
-				DEVELOPMENT_TEAM = 3RHMKD77C8;
-				ENABLE_PREVIEWS = YES;
+				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = QuasiTwitter/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.just-terror.QuasiTwitter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.just_terror.QuasiTwitter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.5;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		80689C492741694A00A58C2A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"QuasiTwitter/Preview Content\"";
-				DEVELOPMENT_TEAM = 3RHMKD77C8;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = QuasiTwitter/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.just-terror.QuasiTwitter";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80689C332741694900A58C2A /* Build configuration list for PBXProject "QuasiTwitter" */ = {
+		71F4A63610CB78337FDE1495 /* Build configuration list for PBXProject "QuasiTwitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80689C452741694A00A58C2A /* Debug */,
-				80689C462741694A00A58C2A /* Release */,
+				D87D12610826C48FC00A336A /* Debug */,
+				E76D171E962C9B05299E8640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80689C472741694A00A58C2A /* Build configuration list for PBXNativeTarget "QuasiTwitter" */ = {
+		DBD75DCBF81AE64C9FE3A13C /* Build configuration list for PBXNativeTarget "QuasiTwitter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80689C482741694A00A58C2A /* Debug */,
-				80689C492741694A00A58C2A /* Release */,
+				9F74CFDBA7A588D0DA6B54DE /* Debug */,
+				E7AA9BEFB134E8BA0E862F6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADF6F82430B9A5377BCC531C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EFC3ED547D5B89776C08D4BD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADF6F82430B9A5377BCC531C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 80689C302741694900A58C2A /* Project object */;
+	rootObject = 2711818FD5A79BBAFC4F2998 /* Project object */;
 }

@@ -1,0 +1,71 @@
+disabled_rules: # rule identifiers to exclude from running
+  - opening_brace
+  - statement_position
+  - redundant_string_enum_value
+  - todo
+  - trailing_whitespace
+#  #need enable in future
+#  - empty_count
+#  - type_name
+#  - identifier_name
+#  - no_allman_style
+#  - force_cast
+#  - shorthand_operator
+#  - force_try
+#  - file_length
+#  - large_tuple
+#  - cyclomatic_complexity
+opt_in_rules: # some rules are only opt-in
+  - closure_spacing
+  - conditional_returns_on_newline
+  - contains_over_first_not_nil
+  - cyclomatic_complexity
+  - empty_count
+  - explicit_init
+  - force_unwrapping
+  - let_var_whitespace
+  - literal_expression_end_indentation
+  - multiple_closures_with_trailing_closure
+  - operator_usage_whitespace
+  - overridden_super_call
+  - private_outlet
+  - trailing_closure
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+  - Templates
+  - IosDemoAppUITests
+  - IosDemoAppTests
+force_unwrapping: error
+trailing_closure: error
+line_length: 220
+type_name:
+  min_length: 3
+  max_length: 60
+nesting:
+  type_level: 3
+file_length:
+  warning: 600
+  error: 700
+identifier_name:
+  excluded: # excluded via string array
+    - id
+    - my
+    - URL
+function_parameter_count:
+  warning: 7
+  error: 10
+# custom_rules:
+#   no_space_before_brace: # rule identifier
+#     included: ".*\\.swift" # regex that defines paths to include during linting. optional.
+#     regex: "[func|var|extension|class] [^\\s]+\\{" # matching pattern
+#     message: "Add one or more space before brace." # violation message. optional.
+#     severity: error # violation severity. optional.
+#   no_allman_style: # rule identifier
+#    included: ".*\\.swift" # regex that defines paths to include during linting. optional.
+#    regex: "(func|extension|class|protocol) [^\\n]+\\{" # matching pattern
+#    message: "Use Allman style." # violation message. optional.
+#    severity: error # violation severity. optional.
+#    no_hiding_in_strings:
+#      regex: "(func|extension|class|protocol) [^\\n]+\\{\\}" # matching pattern
+
