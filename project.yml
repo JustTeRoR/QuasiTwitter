@@ -6,7 +6,7 @@ configs:
     Release: release
 name: QuasiTwitter
 options:
-    bundleIdPrefix: com.just_terror.QuasiTwitter
+    bundleIdPrefix: com.justterror.QuasiTwitter
     defaultConfig: Release
     deploymentTarget:
         iOS: 15.0
@@ -36,6 +36,9 @@ packages:
     Lottie:
         url: https://github.com/airbnb/lottie-ios
         from: 3.2.3
+#    Firebase:
+#        url: https://github.com/firebase/firebase-ios-sdk
+#        from: 8.0.0
 
 targets:
     QuasiTwitter:
@@ -62,7 +65,7 @@ targets:
                     CURRENT_PROJECT_VERSION: 1
                     INFOPLIST_FILE: QuasiTwitter/Info.plist
                     IPHONEOS_DEPLOYMENT_TARGET: 15.0
-                    PRODUCT_BUNDLE_IDENTIFIER: com.just_terror.QuasiTwitter
+                    PRODUCT_BUNDLE_IDENTIFIER: com.justterror.QuasiTwitter
                     PRODUCT_NAME: "$(TARGET_NAME)"
                     PROVISIONING_PROFILE_SPECIFIER:
                     SWIFT_VERSION: 5.5
@@ -76,7 +79,7 @@ targets:
                     CURRENT_PROJECT_VERSION: 1
                     INFOPLIST_FILE: QuasiTwitter/Info.plist
                     IPHONEOS_DEPLOYMENT_TARGET: 15.0
-                    PRODUCT_BUNDLE_IDENTIFIER: com.just_terror.QuasiTwitter
+                    PRODUCT_BUNDLE_IDENTIFIER: com.justterror.QuasiTwitter
                     PRODUCT_NAME: "$(TARGET_NAME)"
                     PROVISIONING_PROFILE_SPECIFIER:
                     SWIFT_VERSION: 5.5
@@ -85,3 +88,4 @@ targets:
         sources: [QuasiTwitter]
         dependencies:
           - package: Lottie
+#          - package: Firebase
