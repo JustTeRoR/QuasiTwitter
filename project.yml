@@ -89,3 +89,8 @@ targets:
         dependencies:
           - package: Lottie
 #          - package: Firebase
+#            product: FirebaseAuth
+#          - package: Firebase
+#            product: FirebaseStorage
+#          - package: Firebase
+#            product: FirebaseDatabase

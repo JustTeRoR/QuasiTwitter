@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Firebase
+//import Firebase
 
 @main
 struct QuasiTwitterApp: App {
@@ -16,7 +16,7 @@ struct QuasiTwitterApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView().onAppear {
-                FirebaseApp.configure()
+                // FirebaseApp.configure()
             }
         }
     }
