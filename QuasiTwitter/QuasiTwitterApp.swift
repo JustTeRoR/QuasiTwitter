@@ -6,25 +6,24 @@
 //
 
 import SwiftUI
-//import Firebase
+import Firebase
 
 @main
 struct QuasiTwitterApp: App {
     
-    // @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
-    
+    @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
+     // let onboardingContentManager = OnboardingContentManagerImpl(manager: PlistManagerImpl())
     var body: some Scene {
         WindowGroup {
-            ContentView().onAppear {
-                // FirebaseApp.configure()
-            }
+            ContentView()
+            // OnboardingWrapper(manager: onboardingContentManager) {}
         }
     }
-    
-//    class AppDelegate: NSObject, UIApplicationDelegate {
-//        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-//            FirebaseApp.configure()
-//            return true
-//        }
-//    }
+}
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
 }

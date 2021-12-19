@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Добро пожаловать!</string>
+		<key>animation</key>
+		<string>welcome</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Находите своих друзей и следите за их активностью, просматривая их посты</string>
+		<key>animation</key>
+		<string>discussion</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Делитесь своей активностью, добавляя новые посты</string>
+		<key>animation</key>
+		<string>welcomingShare</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Добавление лайков и комментариев на посты привествуется</string>
+		<key>animation</key>
+		<string>welcomingLike</string>
+	</dict>
+</array>
+</plist>
