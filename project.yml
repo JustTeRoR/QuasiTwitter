@@ -36,12 +36,12 @@ packages:
     Lottie:
         url: https://github.com/airbnb/lottie-ios
         from: 3.2.3
-    Firebase:
-        url: https://github.com/firebase/firebase-ios-sdk
-        from: 8.0.0
     SnapKit:
         url: https://github.com/SnapKit/SnapKit
         from: 5.0.1
+    Moya:
+        url: https://github.com/Moya/Moya
+        version: 15.0.0
 
 targets:
     QuasiTwitter:
@@ -92,11 +92,6 @@ targets:
         dependencies:
           - package: Lottie
           - package: SnapKit
-          - package: Firebase
-            product: FirebaseAuth
-          - package: Firebase
-            product: FirebaseAnalytics
-#          - package: Firebase
-#            product: FirebaseStorage
-#          - package: Firebase
-#            product: FirebaseDatabase
+          - package: Moya
+          - package: Moya
+            product: CombineMoya
